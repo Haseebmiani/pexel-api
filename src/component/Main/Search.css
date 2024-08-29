@@ -1,0 +1,92 @@
+.overlay-text {
+  /* Hidden by default */
+  display: none;
+  position: absolute;
+  left: 50%;
+  bottom: 85%;
+  transform: translate(-50%, -50%);
+  color: black; /* Text color */
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 30%;
+}
+.player {
+  /* Hidden by default */
+  display: none;
+  position: absolute;
+  left: 50%;
+  bottom: 40%;
+  transform: translate(-50%, -50%);
+  color: black; /* Text color */
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 30%;
+}
+.play-video {
+  display: none;
+  position: absolute;
+  top: 87%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  color: black; /* Text color */
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.overlay-icon {
+  /* Hidden by default */
+  display: none;
+  position: absolute;
+  top: 87%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  color: black; /* Text color */
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.videoicon {
+  display: flex;
+  position: absolute;
+}
+.overlay {
+  display: none;
+  position: absolute;
+  top: 87%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  color: red; /* Text color */
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.overlay-icons {
+  display: none;
+  position: absolute;
+  justify-content: center;
+  left: 70%;
+  bottom: 85%;
+  transform: translate(-50%, -50%);
+  color: black; /* Text color */
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 30%;
+}
+.image-container {
+  position: relative;
+  display: inline-block; /* This allows the container to be the same size as the image */
+}
+
+.image-container:hover .overlay-text {
+  display: block; /* Show when the parent is hovered */
+  background-color: gainsboro;
+}
+.image-container:hover .overlay-icon {
+  display: block; /* Show when the parent is hovered */
+  background-color: gainsboro;
+}
+.image-container:hover .overlay-icons {
+  display: block; /* Show when the parent is hovered */
+  background-color: gainsboro;
+}
